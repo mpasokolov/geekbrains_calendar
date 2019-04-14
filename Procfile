@@ -1,1 +1,1 @@
-web: frontend/web web/
+web: frontend web/
