@@ -1,1 +1,1 @@
-web: frontend/web
+web: frontend/web/index.php
