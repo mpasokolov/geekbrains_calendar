@@ -43,5 +43,8 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "scripts": {
+        "post-install-cmd": "sh post-install-cmd.sh"
+    }
 }
