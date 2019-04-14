@@ -23,8 +23,8 @@
         "cboden/ratchet": "^0.4.1",
         "ext-json": "*",
         "sonko-dmitry/yii2-telegram-bot-api": "*",
-      "ext-curl": "*",
-      "ext-calendar": "*"
+        "ext-curl": "*",
+        "ext-calendar": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
