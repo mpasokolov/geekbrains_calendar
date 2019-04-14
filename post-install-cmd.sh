@@ -1,2 +1,2 @@
-php init --env=$Development --overwrite=All
+php init --env=Development --overwrite=All
 
