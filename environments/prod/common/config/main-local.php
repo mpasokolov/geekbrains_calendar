@@ -7,6 +7,12 @@ if (isset($url["host"]) && isset($url["user"]) && isset($url["pass"]) && isset($
     $username = $url["user"];
     $password = $url["pass"];
     $dbname = substr($url["path"], 1);
+
+    var_dump($host);
+    var_dump($username);
+    var_dump($password);
+    var_dump($dbname);
+
 }
 return [
     'components' => [
