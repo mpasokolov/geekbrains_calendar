@@ -21,7 +21,7 @@ class m190108_180430_users extends Migration {
         ]);
 
         $this->insert('users', [
-            'id' => '1',
+            'id' => 1,
             'username' => 'admin',
             'email' => 'admin@admin.ru',
             'password' => Yii::$app -> security -> generatePasswordHash('admin'),
