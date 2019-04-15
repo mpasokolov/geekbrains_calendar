@@ -29,6 +29,7 @@ class m190108_180430_users extends Migration {
         ]);
     }
 
+    
     /**
      * {@inheritdoc}
      */
