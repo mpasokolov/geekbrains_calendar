@@ -48,9 +48,9 @@ class TeamsController extends Controller {
     public function actionCreate() {
         $model = new Teams();
         if ($model -> load(\Yii::$app -> request -> post()) && $model -> save()) {
-            $model -> trigger(Teams::EVENT_CREATE_TEAM);
+            //$model -> trigger(Teams::EVENT_CREATE_TEAM);
             $message = 'Команда успешно создана!' . '<a href="' . Url ::to('index') . '"> К списку команд</a>';
-            \Yii ::$app -> session -> setFlash('success', $message);
+            \Yii::$app -> session -> setFlash('success', $message);
             return $this -> refresh();
         }
 
